@@ -1,0 +1,29 @@
+title: "OmniCore"
+description: "OmniCore — a Star Citizen companion app whose HOTAS and keybind editor is built to work with any flight sim"
+baseurl: "/OmniCore-Site"
+url: "https://fifecic.github.io"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+navigation:
+  - title: Home
+    url: /
+  - title: User Guide
+    url: /user-guide/
+  - title: Developer Guide
+    url: /developer-guide/
+  - title: About
+    url: /about/
+  - title: Support
+    url: /support/
+  - title: GitHub
+    url: https://github.com/FifeCIC/StarCitizen-OmniCore
+
+# Files that should not be published.
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
